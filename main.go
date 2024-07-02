@@ -5,9 +5,12 @@ import (
 	"fmt"
 	"log"
 	"time"
+
+	"github.com/abigailnguyen/go-crypto/crypto"
 )
 
 func main() {
+	crypto.Encrypted4()
 	c1 := make(chan string, 1)
 	c2 := make(chan string, 1)
 
